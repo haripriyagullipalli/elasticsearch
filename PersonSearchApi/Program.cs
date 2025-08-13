@@ -1,7 +1,8 @@
 using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -19,18 +20,15 @@ builder.WebHost.UseUrls($"http://*:{Environment.GetEnvironmentVariable("PORT")}"
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Enable Swagger in all environments
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
-
 app.UseCors();
-
 app.UseAuthorization();
 
+app.MapGet("/", () => "Backend is running!");  // optional test route
 app.MapControllers();
 
 app.Run();
