@@ -15,6 +15,8 @@ builder.Services.AddCors(options =>
     });
 });
 
+builder.WebHost.UseUrls($"http://*:{Environment.GetEnvironmentVariable("PORT")}");
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
