@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Enable CORS for frontend calls
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -16,19 +18,22 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.WebHost.UseUrls($"http://*:{Environment.GetEnvironmentVariable("PORT")}");
+// Set port: use Render's PORT if available, otherwise 5000 for local
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5020";
+builder.WebHost.UseUrls($"http://*:{port}");
 
 var app = builder.Build();
 
-// Enable Swagger in all environments
+// Swagger UI
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
+// Enable CORS
 app.UseCors();
+
 app.UseAuthorization();
 
-app.MapGet("/", () => "Backend is running!");  // optional test route
+app.MapGet("/", () => "Backend is running!");
 app.MapControllers();
 
 app.Run();

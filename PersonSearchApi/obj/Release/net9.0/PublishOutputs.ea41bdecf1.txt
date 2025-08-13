@@ -1,0 +1,14 @@
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/PersonSearchApi
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/appsettings.Development.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/appsettings.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/PersonSearchApi.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/PersonSearchApi.deps.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/PersonSearchApi.runtimeconfig.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/PersonSearchApi.pdb
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/Elasticsearch.Net.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/Microsoft.AspNetCore.OpenApi.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/Microsoft.OpenApi.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/Nest.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/Swashbuckle.AspNetCore.Swagger.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/out/Swashbuckle.AspNetCore.SwaggerUI.dll

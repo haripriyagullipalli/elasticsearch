@@ -35,3 +35,10 @@
 /Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/obj/Debug/net9.0/PersonSearchApi.pdb
 /Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/obj/Debug/net9.0/PersonSearchApi.genruntimeconfig.cache
 /Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/obj/Debug/net9.0/ref/PersonSearchApi.dll
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/obj/Debug/net9.0/PersonSearchApi.sourcelink.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/bin/Debug/net9.0/out/web.config
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/bin/Debug/net9.0/out/appsettings.Development.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/bin/Debug/net9.0/out/appsettings.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/bin/Debug/net9.0/out/PersonSearchApi.deps.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/bin/Debug/net9.0/out/PersonSearchApi.runtimeconfig.json
+/Users/gullipalliharipriya/workspace/elasticsearch/PersonSearchApi/bin/Debug/net9.0/out/PersonSearchApi.staticwebassets.endpoints.json
